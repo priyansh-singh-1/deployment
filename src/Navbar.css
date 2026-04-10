@@ -1,0 +1,91 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2933;
+  padding: 12px 40px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Left Section */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.logo-box {
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+/* Nav Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #cbd5e1;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: white;
+}
+
+.nav-links .active {
+  color: white;
+  font-weight: bold;
+}
+
+/* Right Section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Search Box */
+.search-box {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+/* Buttons */
+.login-btn {
+  background: transparent;
+  border: 1px solid #cbd5e1;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background: #facc15;
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Hover Effects */
+.login-btn:hover {
+  background: #334155;
+}
+
+.signup-btn:hover {
+  background: #eab308;
+}
